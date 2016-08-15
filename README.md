@@ -24,6 +24,7 @@ Breaks:
 - Classes
 - Modules
 - Destructuring
+- Iterators
 - Spread and Rest Operators
 - Maps and Sets
 
