@@ -1,6 +1,6 @@
 'use strict';
 
-const Person = (class {
+class Person {
 
 	constructor(fn, ln) {
 		this._fn = fn;
@@ -25,7 +25,7 @@ const Person = (class {
 		return this.fn + ' ' + this.ln;
 	}
 
-});
+}
 
 var p = new Person('Andrew', 'Conegliano');
 console.log(p.firstName);
